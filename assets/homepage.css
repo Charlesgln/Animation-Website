@@ -156,7 +156,7 @@ h3 {
 
 .functioning h2 {
   text-align: inherit;
-  padding-left: 10%;
+  padding: 50px 0px 28px 208px;
 }
 
 .title {
@@ -280,6 +280,13 @@ h3 {
   font-weight: 500;
   font-size: 14px;
   margin: 14px 14px 0px 0px;
+}
+.diner-card > a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 footer {
