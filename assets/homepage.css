@@ -156,7 +156,7 @@ h3 {
 
 .functioning h2 {
   text-align: inherit;
-  padding: 50px 0px 28px 208px;
+  padding: 50px 0px 28px 20px;
 }
 
 .title {
@@ -182,13 +182,17 @@ h3 {
   position: relative;
   display: flex;
   align-items: center;
-  width: 322.49px;
+  width: 100%;
   height: 72.38px;
   background: #f7f7f7;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   padding-left: 32px;
-  margin: 0px 0px 24px 32px;
+  margin: 0px 0px 24px 0px;
+}
+
+.steps {
+  padding: 0px 15px 0px 15px;
 }
 
 .step-3 {
@@ -237,7 +241,7 @@ h3 {
 
 .diner-card {
   position: relative;
-  width: 325px;
+  width: 96%;
   height: 251px;
   border-radius: 15px 15px 15px 15px;
   background: #ffffff;
@@ -355,6 +359,18 @@ li a {
   clip-path: circle(70.7% at 50% 50%);
 }
 
+@media screen and (min-width: 355px) {
+  .step-1,
+  .step-2,
+  .step-3 {
+    width: 322.49px;
+    margin: 0px 0px 24px 32px;
+  }
+  .diner-card {
+    width: 325px;
+  }
+}
+
 @media screen and (min-width: 425px) {
   .steps {
     display: flex;
@@ -377,6 +393,7 @@ li a {
     display: flex;
     flex-direction: row;
     padding-right: 25px;
+    margin-bottom: 40px;
   }
   .cards {
     display: grid;
@@ -402,13 +419,17 @@ li a {
   }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1040px) {
   .menu {
-    padding: 50px 0px 28px 208px;
+    padding: 50px 0px 28px 15%;
+  }
+
+  .functioning h2 {
+    padding: 50px 0px 38px 15%;
   }
 
   .loader img {
-    margin-bottom: 0px;
+    margin-bottom: 200px;
     width: 20em;
   }
 
