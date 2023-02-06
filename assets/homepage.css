@@ -14,6 +14,7 @@ html {
   justify-content: center;
   align-items: center;
   position: absolute;
+  top: -100px;
   width: 100%;
   height: 90%;
   z-index: 4;
@@ -64,7 +65,7 @@ html {
 
 .loader img {
   scale: 1;
-  margin-bottom: 70em;
+  margin-bottom: 60em;
   width: 15em;
   animation: blinke 0.4s forwards infinite ease-in-out;
 }
@@ -407,7 +408,7 @@ li a {
   }
 
   .loader img {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 
   .cards::-webkit-scrollbar {
@@ -429,7 +430,7 @@ li a {
   }
 
   .loader img {
-    margin-bottom: 200px;
+    margin-bottom: 0px;
     width: 20em;
   }
 
